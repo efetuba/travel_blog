@@ -1,0 +1,52 @@
+body{
+	background-color: #c35454 ;
+}
+.container{
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin: auto;
+	border: 2px solid black;
+	
+}
+.header{
+	align-content: top;
+ 	justify-content: center;
+  	text-align: center;
+  	font-family:  'Baloo Paaji 2', cursive;
+  	font-size: 24px;
+  	color:whitesmoke;
+}
+.main{
+	align-content: right;
+	font-family:  'Baloo Paaji 2', cursive;
+  	font-size: 20px;
+  	color: rgb(238, 221, 222);
+}
+article{
+	color: whitesmoke;
+}
+img{
+	border-radius: 20px;
+	width: 50%;
+	height: 40%;
+	margin:15px;
+}
+figcaption{
+	color:antiquewhite ;
+}
+.footer{
+	align-content: bottom;
+	font-family:  'Baloo Paaji 2', cursive;
+  	font-size: 20px;
+}
+h2{
+	color:rgb(201, 175, 177);
+}
+em{
+	color: #6C3483;
+}
+
+p{
+	color:whitesmoke;
+}

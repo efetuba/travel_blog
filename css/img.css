@@ -1,0 +1,27 @@
+body{
+	background-color: #c35454 ;
+}
+h2{
+	text-decoration: underline;
+	color:whitesmoke;
+}
+nav a{
+	color: #6C3483;
+}
+nav a :hover{
+	color: whitesmoke;
+	background-color:#6C3483 ;
+}
+button{
+	background-color: whitesmoke;
+	color: #6C3483;
+}
+figure{
+	text-decoration-line: underline;
+}
+a{
+	color:#6C3483 ;
+}
+p{
+	color: beige;
+}

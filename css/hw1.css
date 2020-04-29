@@ -1,0 +1,122 @@
+@import "img.css";
+@import "card.css";
+@import "container.css";
+.header{
+	grid-area: hd;
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 40px;
+	background-color: beige;
+  	color: #1c84c6;
+}
+li{
+	list-style-type: none;
+}
+.footer{
+	grid-area: ft;
+	font-family: 'Baloo Paaji 2', cursive;
+	color: rgb(123, 36, 28);
+	font-size: 24px;
+}
+.main{
+	grid-area: main;
+	border-radius: 20px;
+	background-image: url("../images/istiklal.jpg");
+	background-color:#C35454;
+ 	background-position: center; 
+  	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+.main p{
+	display: none;
+}
+.main p :hover{
+	display: block;
+}
+.card{
+	display: none;
+}
+.slide{
+	grid-area: sd;
+	border-radius: 20px;
+	font-family: 'Baloo Paaji 2', cursive;
+  	font-size: 36px;
+  	color: #34495E;
+}
+img{
+	border-radius: 20px;
+	width: 150px;
+	height: 100px;
+	margin:15px;
+}
+@media(min-width: 900px){
+.container{
+	display: grid;
+	grid-gap: 25px;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin: auto;
+	grid-template-columns: 30px repeat(7,1fr);
+	grid-template-rows: 200px 500px 1fr;
+	grid-template-areas: 
+	"hd hd hd hd hd hd hd hd"
+	"sd sd sd main main main main main "
+	"ft ft ft ft ft ft ft ft";
+}
+.header{
+  	grid-area: hd;
+  	display: flex;
+  	background-color: beige;
+  	border-radius: 10px;
+ 	align-items: center;
+ 	justify-content: center;
+  	text-align: center;
+  	font-family: 'Baloo Paaji 2', cursive;
+  	font-size: 20px;
+	color: #1c84c6;
+	  
+}
+li{
+	display: inline;
+	margin: 20px 20px 20px 20px;
+	padding-left: 40px;
+	list-style-type: none;
+}
+.card { 
+	display: block;
+  	margin-left: 15px;
+}
+.footer{
+	grid-area: ft;
+	font-family: 'Baloo Paaji 2', cursive;
+	color: rgb(123, 36, 28);
+}
+.main{
+	grid-area: main;
+	width: 100%;
+	border-radius: 20px;
+	background-image: url("../images/istiklal.jpg");
+ 	background-color:#C35454;
+ 	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
+}
+.main p{
+	display: none;
+}
+.main p :hover{
+	display: block;
+}
+.slide{
+	grid-area: sd;
+	border-radius: 20px;
+	font-family: 'Baloo Paaji 2', cursive;
+  	font-size: 16px;
+  	color: rgb(222, 224, 226);
+}
+img{
+	border-radius: 20px;
+	width: 150px;
+	height: 100px;
+	margin:15px;
+}
+}

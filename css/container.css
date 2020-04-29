@@ -1,0 +1,15 @@
+.container{
+	display: grid;
+	grid-gap: 10px;
+	width: 100%;
+	height: 120vh;
+	margin-top: 20px;
+	margin: auto;
+	grid-template-columns: 750px;
+	grid-template-rows: 300px 600px 1fr;
+	grid-template-areas: 
+	"hd"
+	"main"
+	"sd"
+	"ft";
+}

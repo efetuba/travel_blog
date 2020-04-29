@@ -1,0 +1,49 @@
+
+header{
+	color: #880E43;
+	text-align: center;
+	margin-top: 20px;
+}
+.card {
+  	justify-content: center;
+  	padding: 10px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 80%;
+  	max-width: 600px;
+  	height: auto;
+ 	margin-left:12em ;
+	background-color: #C35454;
+	color: antiquewhite; 
+	font-family:'Baloo Paaji 2', cursive;
+}
+
+.card-container {
+	align-items: center;
+  	padding: 2px 2px;
+}
+
+.card-img {
+  	object-fit: contain;
+  	width: 100%;
+  	max-width: 200px;
+  	border-radius: 8px;
+}
+
+.card:hover {
+  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+footer{
+	margin-top: 2em;
+}
+button {
+	margin-left: 15em;
+  	background-color: #C35454;
+  	color: #C6E35F;
+  	border: 1px #880E43;
+  	cursor: pointer;
+  	font-weight: 700;
+}
+a{
+	color: antiquewhite;
+}
