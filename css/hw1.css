@@ -1,15 +1,34 @@
 @import "img.css";
 @import "card.css";
-@import "container.css";
+.container{
+	display: grid;
+	grid-gap: 10px;
+	width: 100%;
+	height: 120vh;
+	margin-top: 20px;
+	margin: auto;
+	grid-template-rows: 300px 600px 1fr;
+	grid-template-areas: 
+	"hd"
+	"main"
+	"sd"
+	"ft";
+}
 .header{
 	grid-area: hd;
 	font-family: 'Baloo Paaji 2', cursive;
-	font-size: 40px;
+	font-size: 20px;
 	background-color: beige;
-  	color: #1c84c6;
+	color: #1c84c6;
+}
+h1{
+	text-align: center;
 }
 li{
 	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer{
 	grid-area: ft;

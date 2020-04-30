@@ -15,17 +15,16 @@ body{
   	text-align: center;
   	font-family:  'Baloo Paaji 2', cursive;
   	font-size: 24px;
-  	color:whitesmoke;
+	color:whitesmoke;
+	text-decoration: underline;
 }
-.main{
+article{
 	align-content: right;
 	font-family:  'Baloo Paaji 2', cursive;
   	font-size: 20px;
   	color: rgb(238, 221, 222);
 }
-article{
-	color: whitesmoke;
-}
+
 img{
 	border-radius: 20px;
 	width: 50%;
@@ -41,12 +40,17 @@ figcaption{
   	font-size: 20px;
 }
 h2{
-	color:rgb(201, 175, 177);
+	color:rgb(112, 6, 98);
+	font-family:  'Baloo Paaji 2', cursive;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: underline;
 }
-em{
-	color: #6C3483;
+figcaption{
+	color:rgb(112, 6, 98);
+	font-size: 1.5em;
+	text-align: left;
 }
-
 p{
 	color:whitesmoke;
 }
